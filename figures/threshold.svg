@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="港の潮位と、階段で見た水位の関係">
+<title>港の潮位と、階段で見た水位の関係</title>
+<style>
+svg { --bg:#ffffff; --ink:#191919; --ink2:#666666; --grid:#e6e6e6; --band:#f2f2f2;
+      --up:#257de0; --down:#f47230; --stop:#7a7a7a; --curve:#191919; --water:#257de0; }
+@media (prefers-color-scheme: dark) {
+  svg { --bg:#191919; --ink:#efefef; --ink2:#9c9c9c; --grid:#333333; --band:#262626;
+        --up:#338ced; --down:#e76624; --stop:#9c9c9c; --curve:#efefef; --water:#338ced; }
+}
+.bg { fill:var(--bg); }
+.t { fill:var(--ink); font-family:-apple-system,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif; }
+.t2 { fill:var(--ink2); font-family:-apple-system,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif; }
+.grid { stroke:var(--grid); stroke-width:1; }
+.axis { stroke:var(--ink2); stroke-width:1; }
+.band { fill:var(--band); }
+.curve { fill:none; stroke:var(--curve); stroke-width:2; stroke-linejoin:round; }
+.turn { stroke:var(--ink2); stroke-width:1; stroke-dasharray:4 4; }
+.up { fill:var(--up); stroke:var(--bg); stroke-width:2; }
+.down { fill:var(--down); stroke:var(--bg); stroke-width:2; }
+.stop { fill:var(--bg); stroke:var(--stop); stroke-width:2.5; }
+.mix { fill:var(--stop); stroke:var(--bg); stroke-width:2; }
+.dot { fill:var(--ink); stroke:var(--bg); stroke-width:2; }
+.river { fill:none; stroke:var(--water); stroke-width:10; stroke-linecap:round; opacity:.35; }
+.reach { fill:none; stroke:var(--water); stroke-width:3; }
+.arrowline { fill:none; stroke:var(--ink2); stroke-width:1.5; }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="300" rx="8"/>
+<text class="t" x="20.0" y="30.0" font-size="16" text-anchor="start" font-weight="bold">港の潮位と、階段で見た水位</text>
+<text class="t2" x="20.0" y="50.0" font-size="12" text-anchor="start" font-weight="normal">干潟が出るか沈むかの境目は、港の推算潮位で 116〜132cm のあいだ</text>
+<rect class="band" x="370.0" y="70" width="40.0" height="170"/>
+<text class="t2" x="390.0" y="64.0" font-size="11" text-anchor="middle" font-weight="normal">境目</text>
+<line class="grid" x1="80.0" y1="70" x2="80.0" y2="240"/>
+<text class="t2" x="80.0" y="258.0" font-size="11" text-anchor="middle" font-weight="normal">0</text>
+<line class="grid" x1="205.0" y1="70" x2="205.0" y2="240"/>
+<text class="t2" x="205.0" y="258.0" font-size="11" text-anchor="middle" font-weight="normal">50</text>
+<line class="grid" x1="330.0" y1="70" x2="330.0" y2="240"/>
+<text class="t2" x="330.0" y="258.0" font-size="11" text-anchor="middle" font-weight="normal">100</text>
+<line class="grid" x1="455.0" y1="70" x2="455.0" y2="240"/>
+<text class="t2" x="455.0" y="258.0" font-size="11" text-anchor="middle" font-weight="normal">150</text>
+<line class="grid" x1="580.0" y1="70" x2="580.0" y2="240"/>
+<text class="t2" x="580.0" y="258.0" font-size="11" text-anchor="middle" font-weight="normal">200</text>
+<line class="grid" x1="705.0" y1="70" x2="705.0" y2="240"/>
+<text class="t2" x="705.0" y="258.0" font-size="11" text-anchor="middle" font-weight="normal">250</text>
+<text class="t2" x="405.0" y="286.0" font-size="12" text-anchor="middle" font-weight="normal">港の推算潮位（cm）</text>
+<text class="t" x="68.0" y="94.0" font-size="13" text-anchor="end" font-weight="normal">満</text>
+<text class="t" x="68.0" y="159.0" font-size="13" text-anchor="end" font-weight="normal">浅い</text>
+<text class="t" x="68.0" y="224.0" font-size="13" text-anchor="end" font-weight="normal">干潟</text>
+<circle class="dot" cx="217.5" cy="210.0" r="5"><title>2026-09-08 09:06  55cm  干潟</title></circle>
+<circle class="dot" cx="410.0" cy="145.0" r="5"><title>2026-09-11 09:07  132cm  浅い</title></circle>
+<circle class="dot" cx="497.5" cy="80.0" r="5"><title>2026-09-18 12:51  167cm  満</title></circle>
+<circle class="dot" cx="327.5" cy="210.0" r="5"><title>2026-10-05 09:14  99cm  干潟</title></circle>
+<circle class="dot" cx="672.5" cy="80.0" r="5"><title>2026-10-08 16:40  237cm  満</title></circle>
+<circle class="dot" cx="580.0" cy="80.0" r="5"><title>2026-10-13 09:19  200cm  満</title></circle>
+<circle class="dot" cx="612.5" cy="80.0" r="5"><title>2026-10-14 09:17  213cm  満</title></circle>
+<circle class="dot" cx="532.5" cy="80.0" r="5"><title>2026-10-14 16:35  181cm  満</title></circle>
+<circle class="dot" cx="500.0" cy="90.0" r="5"><title>2026-10-15 16:35  168cm  満</title></circle>
+<circle class="dot" cx="285.0" cy="210.0" r="5"><title>2026-10-22 09:19  82cm  干潟</title></circle>
+<circle class="dot" cx="605.0" cy="80.0" r="5"><title>2026-10-22 16:35  210cm  満</title></circle>
+<circle class="dot" cx="270.0" cy="210.0" r="5"><title>2026-10-23 09:19  76cm  干潟</title></circle>
+<circle class="dot" cx="632.5" cy="80.0" r="5"><title>2026-10-27 16:35  221cm  満</title></circle>
+<circle class="dot" cx="280.0" cy="220.0" r="5"><title>2026-11-05 09:16  80cm  干潟</title></circle>
+<circle class="dot" cx="620.0" cy="90.0" r="5"><title>2026-11-06 16:39  216cm  満</title></circle>
+<circle class="dot" cx="420.0" cy="145.0" r="5"><title>2026-11-18 09:15  136cm  浅い</title></circle>
+<circle class="dot" cx="440.0" cy="80.0" r="5"><title>2026-11-18 16:34  144cm  満</title></circle>
+<circle class="dot" cx="370.0" cy="210.0" r="5"><title>2026-11-19 09:18  116cm  干潟</title></circle>
+<circle class="dot" cx="472.5" cy="80.0" r="5"><title>2026-11-19 16:34  157cm  満</title></circle>
+<circle class="dot" cx="330.0" cy="210.0" r="5"><title>2026-11-20 09:17  100cm  干潟</title></circle>
+<circle class="dot" cx="515.0" cy="80.0" r="5"><title>2026-11-20 16:38  174cm  満</title></circle>
+<circle class="dot" cx="657.5" cy="80.0" r="5"><title>2026-11-24 16:40  231cm  満</title></circle>
+<circle class="dot" cx="325.0" cy="220.0" r="5"><title>2026-11-25 12:28  98cm  干潟</title></circle>
+<circle class="dot" cx="340.0" cy="220.0" r="5"><title>2026-11-25 12:50  104cm  干潟</title></circle>
+<circle class="dot" cx="635.0" cy="90.0" r="5"><title>2026-11-25 16:36  222cm  満</title></circle>
+<circle class="dot" cx="335.0" cy="230.0" r="5"><title>2026-11-26 12:45  102cm  干潟</title></circle>
+<circle class="dot" cx="335.0" cy="210.0" r="5"><title>2026-11-26 12:54  102cm  干潟</title></circle>
+<circle class="dot" cx="587.5" cy="80.0" r="5"><title>2026-11-26 16:35  203cm  満</title></circle>
+<circle class="dot" cx="672.5" cy="90.0" r="5"><title>2026-11-27 08:12  237cm  満</title></circle>
+<circle class="dot" cx="670.0" cy="80.0" r="5"><title>2026-11-27 08:22  236cm  満</title></circle>
+<circle class="dot" cx="665.0" cy="90.0" r="5"><title>2026-11-27 08:28  234cm  満</title></circle>
+<circle class="dot" cx="645.0" cy="90.0" r="5"><title>2026-11-27 09:00  226cm  満</title></circle>
+<text class="t2" x="448.0" y="108.0" font-size="11" text-anchor="start" font-weight="normal">144（区分は仮）</text>
+</svg>

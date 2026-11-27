@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 720" width="760" height="720" role="img" aria-label="港の潮の折り返しと、階段の流れの向き">
+<title>港の潮の折り返しと、階段の流れの向き</title>
+<style>
+svg { --bg:#ffffff; --ink:#191919; --ink2:#666666; --grid:#e6e6e6; --band:#f2f2f2;
+      --up:#257de0; --down:#f47230; --stop:#7a7a7a; --curve:#191919; --water:#257de0; }
+@media (prefers-color-scheme: dark) {
+  svg { --bg:#191919; --ink:#efefef; --ink2:#9c9c9c; --grid:#333333; --band:#262626;
+        --up:#338ced; --down:#e76624; --stop:#9c9c9c; --curve:#efefef; --water:#338ced; }
+}
+.bg { fill:var(--bg); }
+.t { fill:var(--ink); font-family:-apple-system,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif; }
+.t2 { fill:var(--ink2); font-family:-apple-system,"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif; }
+.grid { stroke:var(--grid); stroke-width:1; }
+.axis { stroke:var(--ink2); stroke-width:1; }
+.band { fill:var(--band); }
+.curve { fill:none; stroke:var(--curve); stroke-width:2; stroke-linejoin:round; }
+.turn { stroke:var(--ink2); stroke-width:1; stroke-dasharray:4 4; }
+.up { fill:var(--up); stroke:var(--bg); stroke-width:2; }
+.down { fill:var(--down); stroke:var(--bg); stroke-width:2; }
+.stop { fill:var(--bg); stroke:var(--stop); stroke-width:2.5; }
+.mix { fill:var(--stop); stroke:var(--bg); stroke-width:2; }
+.dot { fill:var(--ink); stroke:var(--bg); stroke-width:2; }
+.river { fill:none; stroke:var(--water); stroke-width:10; stroke-linecap:round; opacity:.35; }
+.reach { fill:none; stroke:var(--water); stroke-width:3; }
+.arrowline { fill:none; stroke:var(--ink2); stroke-width:1.5; }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="720" rx="8"/>
+<text class="t" x="20.0" y="30.0" font-size="16" text-anchor="start" font-weight="bold">港の潮が折り返してから、階段の流れが変わるまで</text>
+<text class="t2" x="20.0" y="50.0" font-size="12" text-anchor="start" font-weight="normal">線は港の推算潮位。下の列は、その時刻に階段で見た流れの向き（港の水位ではない）</text>
+<path class="up" d="M24.0,62.0 L31.0,75.0 L17.0,75.0 Z"/>
+<text class="t2" x="36.0" y="74.0" font-size="12" text-anchor="start" font-weight="normal">上流へ</text>
+<path class="down" d="M89.0,78.0 L96.0,65.0 L82.0,65.0 Z"/>
+<text class="t2" x="101.0" y="74.0" font-size="12" text-anchor="start" font-weight="normal">下流へ</text>
+<circle class="stop" cx="154.0" cy="70.0" r="6"/>
+<text class="t2" x="166.0" y="74.0" font-size="12" text-anchor="start" font-weight="normal">止まる</text>
+<path class="mix" d="M219.0,63.0 L226.0,70.0 L219.0,77.0 L212.0,70.0 Z"/>
+<text class="t2" x="231.0" y="74.0" font-size="12" text-anchor="start" font-weight="normal">手前と奥で逆</text>
+<text class="t" x="20.0" y="102.0" font-size="13" text-anchor="start" font-weight="bold">11/25（港の干潮 12:04・97cm）</text>
+<text class="t2" x="730.0" y="102.0" font-size="11.5" text-anchor="end" font-weight="normal">流れが下流→上流に変わったのは、港の干潮の24〜46分後</text>
+<line class="grid" x1="70" y1="208.0" x2="730" y2="208.0"/>
+<text class="t2" x="62.0" y="212.0" font-size="10" text-anchor="end" font-weight="normal">0</text>
+<line class="grid" x1="70" y1="171.8" x2="730" y2="171.8"/>
+<text class="t2" x="62.0" y="175.8" font-size="10" text-anchor="end" font-weight="normal">100</text>
+<line class="grid" x1="70" y1="135.7" x2="730" y2="135.7"/>
+<text class="t2" x="62.0" y="139.7" font-size="10" text-anchor="end" font-weight="normal">200</text>
+<line class="grid" x1="136.0" y1="114" x2="136.0" y2="252"/>
+<text class="t2" x="136.0" y="276.0" font-size="10" text-anchor="middle" font-weight="normal">11:30</text>
+<line class="grid" x1="268.0" y1="114" x2="268.0" y2="252"/>
+<text class="t2" x="268.0" y="276.0" font-size="10" text-anchor="middle" font-weight="normal">12:00</text>
+<line class="grid" x1="400.0" y1="114" x2="400.0" y2="252"/>
+<text class="t2" x="400.0" y="276.0" font-size="10" text-anchor="middle" font-weight="normal">12:30</text>
+<line class="grid" x1="532.0" y1="114" x2="532.0" y2="252"/>
+<text class="t2" x="532.0" y="276.0" font-size="10" text-anchor="middle" font-weight="normal">13:00</text>
+<line class="grid" x1="664.0" y1="114" x2="664.0" y2="252"/>
+<text class="t2" x="664.0" y="276.0" font-size="10" text-anchor="middle" font-weight="normal">13:30</text>
+<text class="t2" x="62.0" y="244.0" font-size="11" text-anchor="end" font-weight="normal">階段</text>
+<clipPath id="c0"><rect x="70" y="110" width="660" height="102"/></clipPath>
+<path class="curve" clip-path="url(#c0)" d="M4.0,169.0 C48.0,169.6 221.1,172.3 268.0,172.9 C314.9,173.6 241.6,173.5 285.6,172.9 C329.6,172.4 446.9,171.9 532.0,169.7 C617.1,167.4 752.0,161.2 796.0,159.6"/>
+<line class="turn" x1="285.6" y1="114" x2="285.6" y2="252"/>
+<text class="t2" x="289.6" y="124.0" font-size="10" text-anchor="start" font-weight="normal">港の干潮</text>
+<g><title>12:28 下流へ（浮いている葉っぱのかたまりが下流側へ）</title><path class="down" d="M391.2,248.0 L398.2,235.0 L384.2,235.0 Z"/></g>
+<text class="t2" x="391.2" y="228.0" font-size="9.5" text-anchor="middle" font-weight="normal">12:28</text>
+<g><title>12:50 上流へ（手前の赤い粒が1分で画面の半分ほど上流へ。12:56には川全体がゆるやかに上流へ。風は強い印象なし）</title><path class="up" d="M488.0,232.0 L495.0,245.0 L481.0,245.0 Z"/></g>
+<text class="t2" x="488.0" y="260.0" font-size="9.5" text-anchor="middle" font-weight="normal">12:50</text>
+<text class="t" x="20.0" y="302.0" font-size="13" text-anchor="start" font-weight="bold">11/26（港の干潮 12:46・102cm）</text>
+<text class="t2" x="730.0" y="302.0" font-size="11.5" text-anchor="end" font-weight="normal">12:54は手前だけ上流へ（階段の影の渦かも）</text>
+<line class="grid" x1="70" y1="408.0" x2="730" y2="408.0"/>
+<text class="t2" x="62.0" y="412.0" font-size="10" text-anchor="end" font-weight="normal">0</text>
+<line class="grid" x1="70" y1="371.8" x2="730" y2="371.8"/>
+<text class="t2" x="62.0" y="375.8" font-size="10" text-anchor="end" font-weight="normal">100</text>
+<line class="grid" x1="70" y1="335.7" x2="730" y2="335.7"/>
+<text class="t2" x="62.0" y="339.7" font-size="10" text-anchor="end" font-weight="normal">200</text>
+<line class="grid" x1="136.0" y1="314" x2="136.0" y2="452"/>
+<text class="t2" x="136.0" y="476.0" font-size="10" text-anchor="middle" font-weight="normal">12:00</text>
+<line class="grid" x1="268.0" y1="314" x2="268.0" y2="452"/>
+<text class="t2" x="268.0" y="476.0" font-size="10" text-anchor="middle" font-weight="normal">12:30</text>
+<line class="grid" x1="400.0" y1="314" x2="400.0" y2="452"/>
+<text class="t2" x="400.0" y="476.0" font-size="10" text-anchor="middle" font-weight="normal">13:00</text>
+<line class="grid" x1="532.0" y1="314" x2="532.0" y2="452"/>
+<text class="t2" x="532.0" y="476.0" font-size="10" text-anchor="middle" font-weight="normal">13:30</text>
+<line class="grid" x1="664.0" y1="314" x2="664.0" y2="452"/>
+<text class="t2" x="664.0" y="476.0" font-size="10" text-anchor="middle" font-weight="normal">14:00</text>
+<text class="t2" x="62.0" y="444.0" font-size="11" text-anchor="end" font-weight="normal">階段</text>
+<clipPath id="c1"><rect x="70" y="310" width="660" height="102"/></clipPath>
+<path class="curve" clip-path="url(#c1)" d="M-128.0,359.9 C-84.0,361.4 58.3,366.7 136.0,368.6 C213.7,370.5 294.4,370.8 338.4,371.1 C382.4,371.5 345.7,371.7 400.0,370.8 C454.3,369.8 576.0,368.1 664.0,365.3 C752.0,362.6 884.0,356.3 928.0,354.5"/>
+<line class="turn" x1="338.4" y1="314" x2="338.4" y2="452"/>
+<text class="t2" x="342.4" y="324.0" font-size="10" text-anchor="start" font-weight="normal">港の干潮</text>
+<g><title>12:45 下流へ（川全体がはっきり下流へ）</title><path class="down" d="M334.0,448.0 L341.0,435.0 L327.0,435.0 Z"/></g>
+<text class="t2" x="334.0" y="428.0" font-size="9.5" text-anchor="middle" font-weight="normal">12:45</text>
+<g><title>12:54 奥と真ん中は下流へ、手前（浅いところ）はゆっくり上流へ（36秒の動画で浮いている白い粒を追跡：奥の速さを下流向き10とすると、真ん中5、手前は上流向き2くらい）</title><path class="mix" d="M373.6,433.0 L380.6,440.0 L373.6,447.0 L366.6,440.0 Z"/></g>
+<text class="t2" x="373.6" y="460.0" font-size="9.5" text-anchor="middle" font-weight="normal">12:54</text>
+<text class="t" x="20.0" y="502.0" font-size="13" text-anchor="start" font-weight="bold">11/27（港の満潮 8:01・237cm）</text>
+<text class="t2" x="730.0" y="502.0" font-size="11.5" text-anchor="end" font-weight="normal">川全体が下流へ変わったのは、港の満潮の約27分後</text>
+<line class="grid" x1="70" y1="608.0" x2="730" y2="608.0"/>
+<text class="t2" x="62.0" y="612.0" font-size="10" text-anchor="end" font-weight="normal">0</text>
+<line class="grid" x1="70" y1="571.8" x2="730" y2="571.8"/>
+<text class="t2" x="62.0" y="575.8" font-size="10" text-anchor="end" font-weight="normal">100</text>
+<line class="grid" x1="70" y1="535.7" x2="730" y2="535.7"/>
+<text class="t2" x="62.0" y="539.7" font-size="10" text-anchor="end" font-weight="normal">200</text>
+<line class="grid" x1="136.0" y1="514" x2="136.0" y2="652"/>
+<text class="t2" x="136.0" y="676.0" font-size="10" text-anchor="middle" font-weight="normal">7:30</text>
+<line class="grid" x1="268.0" y1="514" x2="268.0" y2="652"/>
+<text class="t2" x="268.0" y="676.0" font-size="10" text-anchor="middle" font-weight="normal">8:00</text>
+<line class="grid" x1="400.0" y1="514" x2="400.0" y2="652"/>
+<text class="t2" x="400.0" y="676.0" font-size="10" text-anchor="middle" font-weight="normal">8:30</text>
+<line class="grid" x1="532.0" y1="514" x2="532.0" y2="652"/>
+<text class="t2" x="532.0" y="676.0" font-size="10" text-anchor="middle" font-weight="normal">9:00</text>
+<line class="grid" x1="664.0" y1="514" x2="664.0" y2="652"/>
+<text class="t2" x="664.0" y="676.0" font-size="10" text-anchor="middle" font-weight="normal">9:30</text>
+<text class="t2" x="62.0" y="644.0" font-size="11" text-anchor="end" font-weight="normal">階段</text>
+<clipPath id="c2"><rect x="70" y="510" width="660" height="102"/></clipPath>
+<path class="curve" clip-path="url(#c2)" d="M4.0,527.0 C48.0,526.2 223.3,523.1 268.0,522.3 C312.7,521.5 228.4,521.7 272.4,522.3 C316.4,523.0 444.7,523.8 532.0,526.3 C619.3,528.8 752.0,535.3 796.0,537.1"/>
+<line class="turn" x1="272.4" y1="514" x2="272.4" y2="652"/>
+<text class="t2" x="276.4" y="604.0" font-size="10" text-anchor="start" font-weight="normal">港の満潮</text>
+<g><title>08:12 手前（浅い側）は下流へ、奥（壁寄り・深い側）は上流へ</title><path class="mix" d="M320.8,633.0 L327.8,640.0 L320.8,647.0 L313.8,640.0 Z"/></g>
+<text class="t2" x="320.8" y="628.0" font-size="9.5" text-anchor="middle" font-weight="normal">08:12</text>
+<g><title>08:22 泡の形が変わる（ずれあり）。真ん中はまだ停滞？</title><circle class="stop" cx="364.8" cy="640.0" r="6"/></g>
+<text class="t2" x="364.8" y="660.0" font-size="9.5" text-anchor="middle" font-weight="normal">08:22</text>
+<g><title>08:28 下流へ（奥も下流へ＝川全体が下げ潮）</title><path class="down" d="M391.2,648.0 L398.2,635.0 L384.2,635.0 Z"/></g>
+<text class="t2" x="391.2" y="628.0" font-size="9.5" text-anchor="middle" font-weight="normal">08:28</text>
+<g><title>09:00 手前（階段のあたり）は上流へ。そのあと下流へ戻った</title><path class="mix" d="M532.0,633.0 L539.0,640.0 L532.0,647.0 L525.0,640.0 Z"/></g>
+<text class="t2" x="532.0" y="660.0" font-size="9.5" text-anchor="middle" font-weight="normal">09:00</text>
+</svg>
